@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "kernel.h": "c",
+        "module.h": "c",
+        "init.h": "c",
+        "list.h": "c",
+        "compiler.h": "c",
+        "types.h": "c",
+        "stat.h": "c",
+        "moduleparam.h": "c",
+        "device.h": "c",
+        "kdev_t.h": "c",
+        "fs.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

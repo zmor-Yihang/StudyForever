@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/zmor/Linux/rk3568_linux_5.10/kernel/include",
+                "/home/zmor/Linux/rk3568_linux_5.10/kernel/include/linux",
+                "/home/zmor/Linux/rk3568_linux_5.10/kernel/include/generated",
+                "/home/zmor/Linux/rk3568_linux_5.10/kernel/include/generated/uapi",
+                "/home/zmor/Linux/rk3568_linux_5.10/kernel/kernel/irq",
+
+                "/home/zmor/Linux/rk3568_linux_5.10/kernel/arch/arm64/include",
+                "/home/zmor/Linux/rk3568_linux_5.10/kernel/arch/arm64/include/generated",
+                "/home/zmor/Linux/rk3568_linux_5.10/kernel/arch/arm64/include/uapi",
+                "/home/zmor/Linux/rk3568_linux_5.10/kernel/arch/arm64/include/generated/uapi",
+                "/home/zmor/Linux/rk3568_linux_5.10/kernel/include/uapi"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE",
+                "__ARM64__",
+                "_LINUX_ARM64__"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

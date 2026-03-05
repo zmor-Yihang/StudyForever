@@ -1,0 +1,25 @@
+# 内核构建系统配置文件
+# 设置项目名和源文件名
+PROJECT_NAME := GPIO_INTERRUPT
+SOURCE_FILES := gpio_interrupt.c
+
+# 源文件目录
+SRC_DIR := $(M)/../user
+
+# 添加C99标准支持，添加源文件目录到头文件搜索路径，不将警告视为错误
+ccflags-y := -std=gnu99 -I$(SRC_DIR) -Wno-error
+
+# 添加内核头文件路径
+ccflags-y += -I/home/zmor/Linux/rk3568_linux_5.10/kernel/include
+ccflags-y += -I/home/zmor/Linux/rk3568_linux_5.10/kernel/arch/arm64/include
+ccflags-y += -I/home/zmor/Linux/rk3568_linux_5.10/kernel/arch/arm64/include/asm
+ccflags-y += -I/home/zmor/Linux/rk3568_linux_5.10/kernel/arch/arm64/include/generated
+ccflags-y += -I/home/zmor/Linux/rk3568_linux_5.10/kernel/arch/arm64/include/generated/asm
+ccflags-y += -I/home/zmor/Linux/rk3568_linux_5.10/kernel/arch/arm64/include/uapi/asm
+ccflags-y += -I/home/zmor/Linux/rk3568_linux_5.10/kernel/include/asm-generic
+ccflags-y += -I/home/zmor/Linux/rk3568_linux_5.10/kernel/include/uapi
+ccflags-y += -I/home/zmor/Linux/rk3568_linux_5.10/kernel/include/uapi/asm-generic
+
+# 告诉内核构建系统要编译的模块
+obj-m := $(PROJECT_NAME).o
+$(PROJECT_NAME)-objs := $(addprefix ../user/,$(SOURCE_FILES:.c=.o))

@@ -1,0 +1,47 @@
+# 从 Kbuild 文件中引入项目配置
+include Kbuild
+
+# 设置内核源码目录路径，使用当前系统的内核头文件
+KDIR := /lib/modules/$(shell uname -r)/build
+
+# 获取当前工作目录（build目录）
+PWD ?= $(shell pwd)
+# 源文件所在目录（user目录）
+SRC_DIR := $(PWD)/../user
+
+# 设置输出目录
+OUTPUT_DIR := $(PWD)/x86
+
+# 添加C99标准支持，添加源文件目录到头文件搜索路径
+ccflags-y := -std=gnu99 -I$(SRC_DIR)
+
+# 编译目标：编译内核模块
+# -C：切换到内核源码目录执行make
+# M=$(PWD)：告诉内核构建系统驱动源码的位置
+# modules：编译模块（.ko文件）
+all:
+	@echo "创建输出目录: $(OUTPUT_DIR)"
+	@mkdir -p $(OUTPUT_DIR)
+	@echo "开始编译x86内核模块..."
+	@make -C $(KDIR) M=$(PWD) modules
+	@echo "移动编译输出到 $(OUTPUT_DIR) 目录..."
+	@mv $(PWD)/*.o $(OUTPUT_DIR)/ 2>/dev/null || true
+	@mv $(SRC_DIR)/*.o $(OUTPUT_DIR)/ 2>/dev/null || true
+	@mv $(PWD)/*.ko $(OUTPUT_DIR)/ 2>/dev/null || true
+	@mv $(PWD)/*.mod $(OUTPUT_DIR)/ 2>/dev/null || true
+	@mv $(PWD)/*.mod.c $(OUTPUT_DIR)/ 2>/dev/null || true
+	@mv $(PWD)/*.mod.o $(OUTPUT_DIR)/ 2>/dev/null || true
+	@mv $(PWD)/Module.symvers $(OUTPUT_DIR)/ 2>/dev/null || true
+	@mv $(PWD)/modules.order $(OUTPUT_DIR)/ 2>/dev/null || true
+	@echo "清理中间文件..."
+	@rm -f $(PWD)/.*.cmd
+	@rm -f $(SRC_DIR)/.*.cmd
+	@echo "编译完成！输出文件在 $(OUTPUT_DIR) 目录中"
+
+# 清理目标：删除编译生成的文件
+clear:
+	@echo "清理x86编译输出..."
+	@rm -rf $(OUTPUT_DIR)
+	@rm -rf $(SRC_DIR)/.*.cmd $(SRC_DIR)/*.o
+	@rm -f $(PWD)/.*.cmd $(PWD)/*.o $(PWD)/*.ko $(PWD)/*.mod $(PWD)/*.mod.c $(PWD)/Module.symvers $(PWD)/modules.order
+	@echo "清理完成！"

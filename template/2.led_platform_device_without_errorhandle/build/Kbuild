@@ -1,0 +1,19 @@
+# 内核构建系统配置文件
+# 设置项目名和源文件名
+PROJECT_NAME := LED0_PLATFORM_DRIVER
+SOURCE_FILES := led0_platform_driver.c
+
+# LED0平台设备模块
+LED0_DEVICE_NAME := LED0_PLATFORM_DEVICE
+LED0_DEVICE_SOURCE := led0_platform_device.c
+
+# 源文件目录
+SRC_DIR := $(M)/../user
+
+# 添加C99标准支持，添加源文件目录和项目根目录到头文件搜索路径，不将警告视为错误
+ccflags-y := -std=gnu99 -I$(SRC_DIR) -I$(M)/.. -Wno-error
+
+# 告诉内核构建系统要编译的模块
+obj-m := $(PROJECT_NAME).o $(LED0_DEVICE_NAME).o
+$(PROJECT_NAME)-objs := $(addprefix ../user/,$(SOURCE_FILES:.c=.o))
+$(LED0_DEVICE_NAME)-objs := $(addprefix ../user/,$(LED0_DEVICE_SOURCE:.c=.o))
