@@ -1,0 +1,23 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Program Files\Keil\ARM\ARMCC\Bin'
+Build target 'Template'
+compiling rtc.c...
+..\..\Drivers\./BSP/RTC/rtc.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Drivers\BSP\RTC\rtc.c(83): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\Drivers\BSP\RTC\rtc.c: 2 warnings, 0 errors
+linking...
+..\..\Output\atk_f103.axf: Error: L6218E: Undefined symbol HAL_PWR_EnableBkUpAccess (referred from rtc.o).
+..\..\Output\atk_f103.axf: Error: L6218E: Undefined symbol HAL_RTCEx_BKUPRead (referred from rtc.o).
+..\..\Output\atk_f103.axf: Error: L6218E: Undefined symbol HAL_RTCEx_BKUPWrite (referred from rtc.o).
+..\..\Output\atk_f103.axf: Error: L6218E: Undefined symbol HAL_RTC_GetDate (referred from rtc.o).
+..\..\Output\atk_f103.axf: Error: L6218E: Undefined symbol HAL_RTC_GetTime (referred from rtc.o).
+..\..\Output\atk_f103.axf: Error: L6218E: Undefined symbol HAL_RTC_Init (referred from rtc.o).
+..\..\Output\atk_f103.axf: Error: L6218E: Undefined symbol HAL_RTC_SetDate (referred from rtc.o).
+..\..\Output\atk_f103.axf: Error: L6218E: Undefined symbol HAL_RTC_SetTime (referred from rtc.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 8 error messages.
+"..\..\Output\atk_f103.axf" - 8 Error(s), 2 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01

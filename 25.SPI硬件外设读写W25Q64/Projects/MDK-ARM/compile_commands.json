@@ -1,0 +1,2510 @@
+[
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.s",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.s",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.txt",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.txt",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.s",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.s",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.txt",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.txt",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.s",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.s",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.txt",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.txt",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.s",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.s",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.txt",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.txt",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.s",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.s",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.txt",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.txt",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.s",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.s",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xb.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/stm32f1xx_it.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Users/main.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/LED/led.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/KEY/key.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/EXTI/exti.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/iwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/WDG/wwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/btim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/TIMER/gtim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/DMA/dma.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/ADC/adc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/I2C/i2c.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/BSP/SPI/spi.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/MPU6050/mpu6050.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Middlewares/W25Q64/w25q64.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/sys/sys.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/delay/delay.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/SYSTEM/usart/usart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o"
+        ]
+    },
+    {
+        "directory": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64",
+        "file": "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.txt",
+        "arguments": [
+            "D:/keil5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.txt",
+            "-o",
+            "build/Template/c:/Users/30495/Desktop/HAL/25.SPI硬件外设读写W25Q64/readme.o"
+        ]
+    }
+]

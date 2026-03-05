@@ -1,0 +1,15 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Build target 'Template'
+compiling main.c...
+..\..\Users\main.c(69): warning:  #1295-D: Deprecated declaration LED_Init - give arg types
+  LED_Init();
+..\..\Users\main.c(69): error:  #260-D: explicit type is missing ("int" assumed)
+  LED_Init();
+..\..\Users\main.c(69): error:  #147: declaration is incompatible with "void LED_Init(void)"  (declared at line 6 of "..\..\Drivers\./BSP/LED/led.h")
+  LED_Init();
+..\..\Users\main.c(94): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\Users\main.c: 2 warnings, 2 errors
+"..\..\Output\atk_f103.axf" - 2 Error(s), 2 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:03

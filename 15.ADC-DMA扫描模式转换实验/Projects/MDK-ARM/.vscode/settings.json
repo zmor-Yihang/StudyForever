@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.m": "matlab",
+        "wwdg.h": "c",
+        "btim.h": "c",
+        "gtim.h": "c",
+        "usart.h": "c",
+        "sys.h": "c",
+        "led.h": "c",
+        "delay.h": "c",
+        "dma.h": "c",
+        "adc.h": "c"
+    }
+}

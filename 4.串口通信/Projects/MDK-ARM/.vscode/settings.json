@@ -1,0 +1,17 @@
+{
+    "KeilAssistant.Project.ExcludeList": [
+        
+        "template.uvproj",
+        "template.uvprojx"
+    ],
+    "files.associations": {
+        "*.m": "matlab",
+        "led.h": "c",
+        "delay.h": "c",
+        "usart.h": "c",
+        "sys.h": "c",
+        "key.h": "c",
+        "limits": "c",
+        "memory": "c"
+    }
+}

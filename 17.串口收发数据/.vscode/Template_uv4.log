@@ -1,0 +1,13 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Build target 'Template'
+compiling main.c...
+..\..\Users\main.c(12): warning:  #223-D: function "UART_Init" declared implicitly
+      UART_Init();
+..\..\Users\main.c(26): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\Users\main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=6850 RO-data=294 RW-data=28 ZI-data=1516  
+FromELF: creating hex file...
+"..\..\Output\atk_f103.axf" - 0 Error(s), 2 Warning(s).
+Build Time Elapsed:  00:00:02

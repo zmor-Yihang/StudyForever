@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.m": "matlab",
+        "gtim.h": "c",
+        "usart.h": "c",
+        "adc.h": "c"
+    }
+}

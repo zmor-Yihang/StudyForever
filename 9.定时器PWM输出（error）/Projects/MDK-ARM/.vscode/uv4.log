@@ -1,0 +1,11 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Build target 'Template'
+compiling gtim.c...
+linking...
+..\..\Output\atk_f103.axf: Error: L6218E: Undefined symbol h_oc_tim (referred from gtim.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+"..\..\Output\atk_f103.axf" - 1 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:02
