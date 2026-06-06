@@ -1,0 +1,8 @@
+
+****项目 example0 配置 Debug 中的 构建****
+
+"D:\\ProgramFiles\\CCS\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'example0.out' is up to date.
+
+**** ??????? ****

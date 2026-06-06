@@ -1,0 +1,13 @@
+
+
+int test = 0;
+
+int main(void)
+{
+    test = 123;
+
+    while(1)
+    {
+
+    }
+}

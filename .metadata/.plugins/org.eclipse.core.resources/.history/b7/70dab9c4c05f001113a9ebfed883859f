@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include "DSP28x_Project.h"
+
+int main(void)
+{
+    printf("hello smear\r\n");
+	return 0;
+}

@@ -1,0 +1,18 @@
+
+****项目 1.ProCreate 配置 Debug 中的 构建****
+
+"D:\\ProgramFiles\\CCS\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.c"
+姝ｅ湪璋冪敤锛?C2000 Compiler
+"D:/ProgramFiles/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/Users/30495/Desktop/CCSPro/1.ProCreate" --include_path="D:/ProgramFiles/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "1.ProCreate.out"
+姝ｅ湪璋冪敤锛?C2000 Linker
+"D:/ProgramFiles/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"1.ProCreate.map" --stack_size=0x300 --warn_sections -i"D:/ProgramFiles/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"D:/ProgramFiles/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="1.ProCreate_linkInfo.xml" --rom_model -o "1.ProCreate.out" "./main.obj" "../28335_RAM_lnk.cmd"  -llibc.a 
+<Linking>
+Finished building target: "1.ProCreate.out"
+ 
+
+**** 构建完成 ****
