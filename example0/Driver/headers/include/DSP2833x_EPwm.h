@@ -109,6 +109,7 @@ union CMPCTL_REG {
 // Action qualifier register bit definitions
 //
 struct AQCTL_BITS {            // bits   description
+                               // 每种事件对应四种动作：  0 不动作，1 置低，2 置高，3 翻转
     Uint16 ZRO:2;              // 1:0    Action Counter = Zero
     Uint16 PRD:2;              // 3:2    Action Counter = Period
     Uint16 CAU:2;              // 5:4    Action Counter = Compare A up
@@ -418,8 +419,8 @@ struct EPWM_REGS {
     union  CMPCTL_REG          CMPCTL;  // 比较值相关配置寄存器
     union  CMPA_HRPWM_GROUP    CMPA;    // 比较值A寄存器，用于设置比较值A的实际值
     Uint16                     CMPB;    // 比较值B寄存器，用于设置比较值B的实际值
-    union  AQCTL_REG           AQCTLA;  // Action qual output A
-    union  AQCTL_REG           AQCTLB;  // Action qual output B
+    union  AQCTL_REG           AQCTLA;  // 与比较寄存器A相关事件触发时动作配置寄存器
+    union  AQCTL_REG           AQCTLB;  // 与比较寄存器B相关事件触发时动作配置寄存器
     union  AQSFRC_REG          AQSFRC;  // Action qual SW force
     union  AQCSFRC_REG         AQCSFRC; // Action qualifier continuous SW force 
     union  DBCTL_REG           DBCTL;   // Dead-band control

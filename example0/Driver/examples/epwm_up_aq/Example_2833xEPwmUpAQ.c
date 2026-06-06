@@ -1,8 +1,8 @@
-//###########################################################################
+// ###########################################################################
 //
-// FILE:   Example_2833xEPwmUpAQ.c
+//  FILE:   Example_2833xEPwmUpAQ.c
 //
-// TITLE:  ePWM Action Qualifier Module using Upcount mode Example
+//  TITLE:  ePWM Action Qualifier Module using Upcount mode Example
 //
 //! \addtogroup f2833x_example_list
 //! <h1>ePWM Action Qualifier Module using Upcount mode (epwm_up_aq)</h1>
@@ -21,46 +21,46 @@
 //!  - EPWM3A is on GPIO4
 //!  - EPWM3B is on GPIO5
 //
-//###########################################################################
+// ###########################################################################
 // $TI Release: $
 // $Release Date: $
 // $Copyright:
 // Copyright (C) 2009-2026 Texas Instruments Incorporated - http://www.ti.com/
 //
-// Redistribution and use in source and binary forms, with or without 
-// modification, are permitted provided that the following conditions 
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions
 // are met:
-// 
-//   Redistributions of source code must retain the above copyright 
+//
+//   Redistributions of source code must retain the above copyright
 //   notice, this list of conditions and the following disclaimer.
-// 
+//
 //   Redistributions in binary form must reproduce the above copyright
-//   notice, this list of conditions and the following disclaimer in the 
-//   documentation and/or other materials provided with the   
+//   notice, this list of conditions and the following disclaimer in the
+//   documentation and/or other materials provided with the
 //   distribution.
-// 
+//
 //   Neither the name of Texas Instruments Incorporated nor the names of
 //   its contributors may be used to endorse or promote products derived
 //   from this software without specific prior written permission.
-// 
-// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
-// "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+// "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
 // LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-// A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
-// OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
-// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
+// A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+// OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
 // LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
 // DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-// THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
-// (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+// THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+// (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 // $
-//###########################################################################
+// ###########################################################################
 
 //
 // Included Files
 //
-#include "DSP28x_Project.h"     // Device Headerfile and Examples Include File
+#include "DSP28x_Project.h" // Device Headerfile and Examples Include File
 
 //
 // Typedefs
@@ -86,7 +86,7 @@ void InitEPwm3Example(void);
 __interrupt void epwm1_isr(void);
 __interrupt void epwm2_isr(void);
 __interrupt void epwm3_isr(void);
-void update_compare(EPWM_INFO*);
+void update_compare(EPWM_INFO *);
 
 //
 // Globals
@@ -98,28 +98,28 @@ EPWM_INFO epwm3_info;
 //
 // Defines that configure the period for each timer
 //
-#define EPWM1_TIMER_TBPRD  2000  // Period register
-#define EPWM1_MAX_CMPA     1950
-#define EPWM1_MIN_CMPA       50
-#define EPWM1_MAX_CMPB     1950
-#define EPWM1_MIN_CMPB       50
+#define EPWM1_TIMER_TBPRD 2000 // Period register
+#define EPWM1_MAX_CMPA 1950
+#define EPWM1_MIN_CMPA 50
+#define EPWM1_MAX_CMPB 1950
+#define EPWM1_MIN_CMPB 50
 
-#define EPWM2_TIMER_TBPRD  2000  // Period register
-#define EPWM2_MAX_CMPA     1950
-#define EPWM2_MIN_CMPA       50
-#define EPWM2_MAX_CMPB     1950
-#define EPWM2_MIN_CMPB       50
+#define EPWM2_TIMER_TBPRD 2000 // Period register
+#define EPWM2_MAX_CMPA 1950
+#define EPWM2_MIN_CMPA 50
+#define EPWM2_MAX_CMPB 1950
+#define EPWM2_MIN_CMPB 50
 
-#define EPWM3_TIMER_TBPRD  2000  // Period register
-#define EPWM3_MAX_CMPA      950
-#define EPWM3_MIN_CMPA       50
-#define EPWM3_MAX_CMPB     1950
-#define EPWM3_MIN_CMPB     1050
+#define EPWM3_TIMER_TBPRD 2000 // Period register
+#define EPWM3_MAX_CMPA 950
+#define EPWM3_MIN_CMPA 50
+#define EPWM3_MAX_CMPB 1950
+#define EPWM3_MIN_CMPB 1050
 
 //
 // Defines that keep track of which way the compare value is moving
 //
-#define EPWM_CMP_UP   1
+#define EPWM_CMP_UP 1
 #define EPWM_CMP_DOWN 0
 
 //
@@ -183,11 +183,11 @@ void main(void)
     // Interrupts that are used in this example are re-mapped to
     // ISR functions found within this file.
     //
-    EALLOW;  // This is needed to write to EALLOW protected registers
+    EALLOW; // This is needed to write to EALLOW protected registers
     PieVectTable.EPWM1_INT = &epwm1_isr;
     PieVectTable.EPWM2_INT = &epwm2_isr;
     PieVectTable.EPWM3_INT = &epwm3_isr;
-    EDIS;    // This is needed to disable write to EALLOW protected registers
+    EDIS; // This is needed to disable write to EALLOW protected registers
 
     //
     // Step 4. Initialize all the Device Peripherals:
@@ -229,22 +229,22 @@ void main(void)
     //
     // Enable global Interrupts and higher priority real-time debug events
     //
-    EINT;   // Enable Global interrupt INTM
-    ERTM;   // Enable Global realtime interrupt DBGM
+    EINT; // Enable Global interrupt INTM
+    ERTM; // Enable Global realtime interrupt DBGM
 
     //
     // Step 6. IDLE loop. Just sit and loop forever (optional)
     //
-    for(;;)
+    for (;;)
     {
         __asm("          NOP");
     }
 }
 
-// 
-// epwm1_isr - 
 //
-__interrupt void 
+// epwm1_isr -
+//
+__interrupt void
 epwm1_isr(void)
 {
     //
@@ -264,9 +264,9 @@ epwm1_isr(void)
 }
 
 //
-// epwm2_isr - 
+// epwm2_isr -
 //
-__interrupt void 
+__interrupt void
 epwm2_isr(void)
 {
     //
@@ -288,7 +288,7 @@ epwm2_isr(void)
 //
 // epwm3_isr -
 //
-__interrupt void 
+__interrupt void
 epwm3_isr(void)
 {
     //
@@ -310,8 +310,7 @@ epwm3_isr(void)
 //
 // InitEPwm1Example -
 //
-void 
-InitEPwm1Example()
+void InitEPwm1Example()
 {
     //
     // Setup TBCLK
@@ -335,50 +334,49 @@ InitEPwm1Example()
     //
     // Set Compare values
     //
-    EPwm1Regs.CMPA.half.CMPA = EPWM1_MIN_CMPA;    // Set compare A value
-    EPwm1Regs.CMPB = EPWM1_MIN_CMPB;              // Set Compare B value
+    EPwm1Regs.CMPA.half.CMPA = EPWM1_MIN_CMPA; // Set compare A value
+    EPwm1Regs.CMPB = EPWM1_MIN_CMPB;           // Set Compare B value
 
     //
     // Set actions
     //
-    EPwm1Regs.AQCTLA.bit.ZRO = AQ_SET;      // Set PWM1A on Zero
-    EPwm1Regs.AQCTLA.bit.CAU = AQ_CLEAR;    // Clear PWM1A on event A, up count
+    EPwm1Regs.AQCTLA.bit.ZRO = AQ_SET;   // Set PWM1A on Zero
+    EPwm1Regs.AQCTLA.bit.CAU = AQ_CLEAR; // Clear PWM1A on event A, up count
 
-    EPwm1Regs.AQCTLB.bit.ZRO = AQ_SET;      // Set PWM1B on Zero
-    EPwm1Regs.AQCTLB.bit.CBU = AQ_CLEAR;    // Clear PWM1B on event B, up count
+    EPwm1Regs.AQCTLB.bit.ZRO = AQ_SET;   // Set PWM1B on Zero
+    EPwm1Regs.AQCTLB.bit.CBU = AQ_CLEAR; // Clear PWM1B on event B, up count
 
     //
     // Interrupt where we will change the Compare Values
     //
-    EPwm1Regs.ETSEL.bit.INTSEL = ET_CTR_ZERO;     // Select INT on Zero event
-    EPwm1Regs.ETSEL.bit.INTEN = 1;                // Enable INT
-    EPwm1Regs.ETPS.bit.INTPRD = ET_3RD;           // Generate INT on 3rd event
+    EPwm1Regs.ETSEL.bit.INTSEL = ET_CTR_ZERO; // Select INT on Zero event
+    EPwm1Regs.ETSEL.bit.INTEN = 1;            // Enable INT
+    EPwm1Regs.ETPS.bit.INTPRD = ET_3RD;       // Generate INT on 3rd event
 
     //
-    // Information this example uses to keep track of the direction the 
+    // Information this example uses to keep track of the direction the
     // CMPA/CMPB values are moving, the min and max allowed values and
     // a pointer to the correct ePWM registers
     //
-    
+
     //
     // Start by increasing CMPA & CMPB
     //
     epwm1_info.EPwm_CMPA_Direction = EPWM_CMP_UP;
     epwm1_info.EPwm_CMPB_Direction = EPWM_CMP_UP;
-    
-    epwm1_info.EPwmTimerIntCount = 0;      // Zero the interrupt counter
-    epwm1_info.EPwmRegHandle = &EPwm1Regs; //Set the pointer to the ePWM module
-    epwm1_info.EPwmMaxCMPA = EPWM1_MAX_CMPA;  // Setup min/max CMPA/CMPB values
+
+    epwm1_info.EPwmTimerIntCount = 0;        // Zero the interrupt counter
+    epwm1_info.EPwmRegHandle = &EPwm1Regs;   // Set the pointer to the ePWM module
+    epwm1_info.EPwmMaxCMPA = EPWM1_MAX_CMPA; // Setup min/max CMPA/CMPB values
     epwm1_info.EPwmMinCMPA = EPWM1_MIN_CMPA;
     epwm1_info.EPwmMaxCMPB = EPWM1_MAX_CMPB;
     epwm1_info.EPwmMinCMPB = EPWM1_MIN_CMPB;
 }
 
 //
-// InitEPwm2Example - 
+// InitEPwm2Example -
 //
-void 
-InitEPwm2Example()
+void InitEPwm2Example()
 {
     //
     // Setup TBCLK
@@ -402,17 +400,17 @@ InitEPwm2Example()
     //
     // Set Compare values
     //
-    EPwm2Regs.CMPA.half.CMPA = EPWM2_MIN_CMPA;   // Set compare A value
-    EPwm2Regs.CMPB = EPWM2_MAX_CMPB;             // Set Compare B value
+    EPwm2Regs.CMPA.half.CMPA = EPWM2_MIN_CMPA; // Set compare A value
+    EPwm2Regs.CMPB = EPWM2_MAX_CMPB;           // Set Compare B value
 
     //
     // Set actions
     //
-    EPwm2Regs.AQCTLA.bit.PRD = AQ_CLEAR;      // Clear PWM2A on Period
-    EPwm2Regs.AQCTLA.bit.CAU = AQ_SET;        // Set PWM2A on event A, up count
+    EPwm2Regs.AQCTLA.bit.PRD = AQ_CLEAR; // Clear PWM2A on Period
+    EPwm2Regs.AQCTLA.bit.CAU = AQ_SET;   // Set PWM2A on event A, up count
 
-    EPwm2Regs.AQCTLB.bit.PRD = AQ_CLEAR;      // Clear PWM2B on Period
-    EPwm2Regs.AQCTLB.bit.CBU = AQ_SET;        // Set PWM2B on event B, up count
+    EPwm2Regs.AQCTLB.bit.PRD = AQ_CLEAR; // Clear PWM2B on Period
+    EPwm2Regs.AQCTLB.bit.CBU = AQ_SET;   // Set PWM2B on event B, up count
 
     //
     // Interrupt where we will change the Compare Values
@@ -422,15 +420,15 @@ InitEPwm2Example()
     EPwm2Regs.ETPS.bit.INTPRD = ET_3RD;       // Generate INT on 3rd event
 
     //
-    // Information this example uses to keep track of the direction the 
+    // Information this example uses to keep track of the direction the
     // CMPA/CMPB values are moving, the min and max allowed values and
     // a pointer to the correct ePWM registers
     //
     epwm2_info.EPwm_CMPA_Direction = EPWM_CMP_UP;   // Start by increasing CMPA
-    epwm2_info.EPwm_CMPB_Direction = EPWM_CMP_DOWN;  // and decreasing CMPB
-    epwm2_info.EPwmTimerIntCount = 0;         // Zero the interrupt counter
-    epwm2_info.EPwmRegHandle = &EPwm2Regs; //Set the pointer to the ePWM module
-    epwm2_info.EPwmMaxCMPA = EPWM2_MAX_CMPA;  // Setup min/max CMPA/CMPB values
+    epwm2_info.EPwm_CMPB_Direction = EPWM_CMP_DOWN; // and decreasing CMPB
+    epwm2_info.EPwmTimerIntCount = 0;               // Zero the interrupt counter
+    epwm2_info.EPwmRegHandle = &EPwm2Regs;          // Set the pointer to the ePWM module
+    epwm2_info.EPwmMaxCMPA = EPWM2_MAX_CMPA;        // Setup min/max CMPA/CMPB values
     epwm2_info.EPwmMinCMPA = EPWM2_MIN_CMPA;
     epwm2_info.EPwmMaxCMPB = EPWM2_MAX_CMPB;
     epwm2_info.EPwmMinCMPB = EPWM2_MIN_CMPB;
@@ -439,8 +437,7 @@ InitEPwm2Example()
 //
 // InitEPwm3Example -
 //
-void 
-InitEPwm3Example(void)
+void InitEPwm3Example(void)
 {
     //
     // Setup TBCLK
@@ -470,29 +467,29 @@ InitEPwm3Example(void)
     //
     // Set Actions
     //
-    EPwm3Regs.AQCTLA.bit.CAU = AQ_SET;     // Set PWM3A on event B, up count
-    EPwm3Regs.AQCTLA.bit.CBU = AQ_CLEAR;   // Clear PWM3A on event B, up count
+    EPwm3Regs.AQCTLA.bit.CAU = AQ_SET;   // Set PWM3A on event B, up count
+    EPwm3Regs.AQCTLA.bit.CBU = AQ_CLEAR; // Clear PWM3A on event B, up count
 
-    EPwm3Regs.AQCTLB.bit.ZRO = AQ_TOGGLE;      // Toggle EPWM3B on Zero
+    EPwm3Regs.AQCTLB.bit.ZRO = AQ_TOGGLE; // Toggle EPWM3B on Zero
 
     //
     // Interrupt where we will change the Compare Values
     //
-    EPwm3Regs.ETSEL.bit.INTSEL = ET_CTR_ZERO;     // Select INT on Zero event
-    EPwm3Regs.ETSEL.bit.INTEN = 1;                // Enable INT
-    EPwm3Regs.ETPS.bit.INTPRD = ET_3RD;           // Generate INT on 3rd event
+    EPwm3Regs.ETSEL.bit.INTSEL = ET_CTR_ZERO; // Select INT on Zero event
+    EPwm3Regs.ETSEL.bit.INTEN = 1;            // Enable INT
+    EPwm3Regs.ETPS.bit.INTPRD = ET_3RD;       // Generate INT on 3rd event
 
     //
     // Start by increasing the compare A and decreasing compare B
     //
     epwm3_info.EPwm_CMPA_Direction = EPWM_CMP_UP;
     epwm3_info.EPwm_CMPB_Direction = EPWM_CMP_DOWN;
-    
+
     //
     // Start the count at 0
     //
     epwm3_info.EPwmTimerIntCount = 0;
-    
+
     epwm3_info.EPwmRegHandle = &EPwm3Regs;
     epwm3_info.EPwmMaxCMPA = EPWM3_MAX_CMPA;
     epwm3_info.EPwmMinCMPA = EPWM3_MIN_CMPA;
@@ -503,13 +500,12 @@ InitEPwm3Example(void)
 //
 // update_compare -
 //
-void 
-update_compare(EPWM_INFO *epwm_info)
+void update_compare(EPWM_INFO *epwm_info)
 {
     //
     // Every 10'th interrupt, change the CMPA/CMPB values
     //
-    if(epwm_info->EPwmTimerIntCount == 10)
+    if (epwm_info->EPwmTimerIntCount == 10)
     {
         epwm_info->EPwmTimerIntCount = 0;
 
@@ -517,10 +513,10 @@ update_compare(EPWM_INFO *epwm_info)
         // If we were increasing CMPA, check to see if we reached the max value
         // If not, increase CMPA else, change directions and decrease CMPA
         //
-        if(epwm_info->EPwm_CMPA_Direction == EPWM_CMP_UP)
+        if (epwm_info->EPwm_CMPA_Direction == EPWM_CMP_UP)
         {
-            if(epwm_info->EPwmRegHandle->CMPA.half.CMPA < 
-               epwm_info->EPwmMaxCMPA)
+            if (epwm_info->EPwmRegHandle->CMPA.half.CMPA <
+                epwm_info->EPwmMaxCMPA)
             {
                 epwm_info->EPwmRegHandle->CMPA.half.CMPA++;
             }
@@ -537,8 +533,8 @@ update_compare(EPWM_INFO *epwm_info)
         //
         else
         {
-            if(epwm_info->EPwmRegHandle->CMPA.half.CMPA == 
-               epwm_info->EPwmMinCMPA)
+            if (epwm_info->EPwmRegHandle->CMPA.half.CMPA ==
+                epwm_info->EPwmMinCMPA)
             {
                 epwm_info->EPwm_CMPA_Direction = EPWM_CMP_UP;
                 epwm_info->EPwmRegHandle->CMPA.half.CMPA++;
@@ -553,9 +549,9 @@ update_compare(EPWM_INFO *epwm_info)
         // If we were increasing CMPB, check to see if we reached the max value
         // If not, increase CMPB else, change directions and decrease CMPB
         //
-        if(epwm_info->EPwm_CMPB_Direction == EPWM_CMP_UP)
+        if (epwm_info->EPwm_CMPB_Direction == EPWM_CMP_UP)
         {
-            if(epwm_info->EPwmRegHandle->CMPB < epwm_info->EPwmMaxCMPB)
+            if (epwm_info->EPwmRegHandle->CMPB < epwm_info->EPwmMaxCMPB)
             {
                 epwm_info->EPwmRegHandle->CMPB++;
             }
@@ -565,25 +561,25 @@ update_compare(EPWM_INFO *epwm_info)
                 epwm_info->EPwmRegHandle->CMPB--;
             }
         }
-    
+
         //
         // If we were decreasing CMPB, check to see if we reached the min value
         // If not, decrease CMPB else, change directions and increase CMPB
         //
         else
         {
-            if(epwm_info->EPwmRegHandle->CMPB == epwm_info->EPwmMinCMPB)
+            if (epwm_info->EPwmRegHandle->CMPB == epwm_info->EPwmMinCMPB)
             {
                 epwm_info->EPwm_CMPB_Direction = EPWM_CMP_UP;
                 epwm_info->EPwmRegHandle->CMPB++;
             }
-            else    
+            else
             {
                 epwm_info->EPwmRegHandle->CMPB--;
             }
         }
     }
-    
+
     else
     {
         epwm_info->EPwmTimerIntCount++;
@@ -595,4 +591,3 @@ update_compare(EPWM_INFO *epwm_info)
 //
 // End of File
 //
-
