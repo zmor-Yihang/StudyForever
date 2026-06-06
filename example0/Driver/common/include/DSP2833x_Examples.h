@@ -155,6 +155,11 @@ extern "C" {
 #define DELAY_US(A)  DSP28x_usDelay(((((long double) A * 1000.0L) / \
         (long double)CPU_RATE) - 9.0L) / 5.0L)
 
+//
+// Wrapper for DELAY_US to provide ms delay
+//
+#define DELAY_MS(A)  DELAY_US((long double)(A) * 1000.0L)
+
 #ifdef __cplusplus
 }
 #endif /* extern "C" */

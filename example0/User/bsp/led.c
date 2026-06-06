@@ -14,12 +14,13 @@ void led_init(void)
 
 void led_on(void)
 {
-    GpioDataRegs.GPCSET.bit.GPIO68 = 1; // GPIO68 输出高电平
+    GpioDataRegs.GPCCLEAR.bit.GPIO68 = 1; // GPIO68 输出低电平
 }
 
 void led_off(void)
 {
-    GpioDataRegs.GPCCLEAR.bit.GPIO68 = 1; // GPIO68 输出低电平
+    GpioDataRegs.GPCSET.bit.GPIO68 = 1; // GPIO68 输出高电平
+
 }
 
 void led_toggle(void)
