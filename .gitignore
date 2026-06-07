@@ -1,0 +1,48 @@
+# CCS / Eclipse workspace metadata
+.metadata/
+RemoteSystemsTempFiles/
+.jxbrowser.userdata/
+
+# Build outputs
+**/Debug/
+**/Release/
+**/build/
+**/out/
+
+# Generated build artifacts
+*.d
+*.o
+*.obj
+*.map
+*.out
+*.elf
+*.bin
+*.hex
+*.lst
+*.opt
+*.mk
+makefile
+*_linkInfo.xml
+subdir_rules.mk
+subdir_vars.mk
+objects.mk
+sources.mk
+
+# Logs / temp / cache
+*.log
+*.tmp
+*.cache
+*.pdb
+*.idb
+*.ipdb
+*.iobj
+*.tlog
+*.lastbuildstate
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
