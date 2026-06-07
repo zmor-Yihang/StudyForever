@@ -127,12 +127,12 @@ union AQCTL_REG {
 //
 // Action qualifier SW force register bit definitions
 //
-struct AQSFRC_BITS {            // bits description
-    Uint16 ACTSFA:2;            // 1:0  Action when One-time SW Force A invoked
-    Uint16 OTSFA:1;             // 2    One-time SW Force A output
-    Uint16 ACTSFB:2;            // 4:3  Action when One-time SW Force B invoked
-    Uint16 OTSFB:1;             // 5    One-time SW Force A output
-    Uint16 RLDCSF:2;            // 7:6  Reload from Shadow options
+struct AQSFRC_BITS {            // bits description	
+    Uint16 ACTSFA:2;            // 1:0  设置 ePWMxA 被软件强制时执行什么动作：00=无动作，01=拉低，10=拉高，11=翻转
+    Uint16 OTSFA:1;             // 2    写 1 触发一次强制
+    Uint16 ACTSFB:2;            // 4:3  设置 ePWMxB 被软件强制时执行什么动作：00=无动作，01=拉低，10=拉高，11=翻转
+    Uint16 OTSFB:1;             // 5    写 1 触发一次强制
+    Uint16 RLDCSF:2;            // 7:6  连续软件强制的影子寄存器装载时机：00=不装载，01=装载，10=装载并清零，11=装载并置高
     Uint16 rsvd1:8;             // 15:8 reserved
 };
 
@@ -145,8 +145,8 @@ union AQSFRC_REG {
 // Action qualifier continuous SW force register bit definitions
 //
 struct AQCSFRC_BITS {           // bits   description
-    Uint16 CSFA:2;              // 1:0    Continuous Software Force on output A
-    Uint16 CSFB:2;              // 3:2    Continuous Software Force on output B
+    Uint16 CSFA:2;              // 1:0    连续软件强制A输出执行什么动作：00=不强制，01=持续强制为低，10=持续强制为高，11=保留/无效
+    Uint16 CSFB:2;              // 3:2    连续软件强制B输出执行什么动作：00=不强制，01=持续强制为低，10=持续强制为高，11=保留/无效
     Uint16 rsvd1:12;            // 15:4   reserved
 };
 
@@ -167,9 +167,9 @@ union AQCSFRC_REG {
 // Dead-band generator control register bit definitions                                    
 //
 struct DBCTL_BITS {              // bits   description
-    Uint16 OUT_MODE:2;      	 // 1:0    Dead Band Output Mode Control 
-    Uint16 POLSEL:2;             // 3:2    Polarity Select Control 
-    Uint16 IN_MODE:2;            // 5:4    Dead Band Input Select Mode Control
+    Uint16 OUT_MODE:2;      	 // 1:0    设置死区输出模式：00=无死区，01=上升沿死区，10=下降沿死区，11=上升沿和下降沿死区
+    Uint16 POLSEL:2;             // 3:2    决定死区之后，A/B 两路输出要不要取反，00-都不取反，01-A取反，10-B取反，11-AB都取反
+    Uint16 IN_MODE:2;            // 5:4    输入信号源：00-上升沿下降沿都用A输出，01-上升沿用B，下降沿用A，10-上升沿用A，下降沿用B，11-都用B输出
     Uint16 rsvd1:10;             // 15:4   reserved
 };
 
@@ -419,13 +419,13 @@ struct EPWM_REGS {
     union  CMPCTL_REG          CMPCTL;  // 比较值相关配置寄存器
     union  CMPA_HRPWM_GROUP    CMPA;    // 比较值A寄存器，用于设置比较值A的实际值
     Uint16                     CMPB;    // 比较值B寄存器，用于设置比较值B的实际值
-    union  AQCTL_REG           AQCTLA;  // 与比较寄存器A相关事件触发时动作配置寄存器
-    union  AQCTL_REG           AQCTLB;  // 与比较寄存器B相关事件触发时动作配置寄存器
-    union  AQSFRC_REG          AQSFRC;  // Action qual SW force
-    union  AQCSFRC_REG         AQCSFRC; // Action qualifier continuous SW force 
-    union  DBCTL_REG           DBCTL;   // Dead-band control
-    Uint16                     DBRED;   // Dead-band rising edge delay
-    Uint16                     DBFED;   // Dead-band falling edge delay
+    union  AQCTL_REG           AQCTLA;  // 与比较寄存器A相关事件被触发时，输出引脚执行动作的配置寄存器
+    union  AQCTL_REG           AQCTLB;  // 与比较寄存器B相关事件被触发时，输出引脚执行动作的配置寄存器
+    union  AQSFRC_REG          AQSFRC;  // 用软件让 ePWMxA / ePWMxB 输出拉高、拉低、翻转一次。
+    union  AQCSFRC_REG         AQCSFRC; // 用软件强制A/B连续输出，持续拉高或持续拉低
+    union  DBCTL_REG           DBCTL;   // 死区控制寄存器
+    Uint16                     DBRED;   // 上升沿延时具体值
+    Uint16                     DBFED;   // 下降沿延时具体值
     union  TZSEL_REG           TZSEL;   // Trip zone select
     Uint16                     rsvd2;   
     union  TZCTL_REG           TZCTL;   // Trip zone control

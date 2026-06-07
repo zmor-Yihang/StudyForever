@@ -1,6 +1,5 @@
 #include "led.h"
-#include "DSP2833x_Device.h"
-#include "DSP2833x_Examples.h"
+#include "DSP28x_Project.h"
 
 void led_init(void)
 {
@@ -20,7 +19,6 @@ void led_on(void)
 void led_off(void)
 {
     GpioDataRegs.GPCSET.bit.GPIO68 = 1; // GPIO68 输出高电平
-
 }
 
 void led_toggle(void)
