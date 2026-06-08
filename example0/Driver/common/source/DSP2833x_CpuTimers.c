@@ -177,11 +177,17 @@ void ConfigCpuTimer(struct CPUTIMER_VARS *Timer, float Freq, float Period)
     Timer->RegsAddr->TCR.bit.TSS = 1;
 
     Timer->RegsAddr->TCR.bit.TRB = 1; // 1 = reload timer
-    Timer->RegsAddr->TCR.bit.SOFT = 1;
+
+    //
+    // 下面两个寄存器和调试有关
+    // 这么设置当CPU暂停时，timer会继续运行，计数器继续计数
+    //
+    Timer->RegsAddr->TCR.bit.SOFT = 1; // 
     Timer->RegsAddr->TCR.bit.FREE = 1; // Timer Free Run
 
     //
     // 0 = Disable/ 1 = Enable Timer Interrupt
+    // 配置默认开启中断，触发源为计数器递减到0
     //
     Timer->RegsAddr->TCR.bit.TIE = 1;
 

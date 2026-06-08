@@ -53,9 +53,9 @@ extern "C" {
 struct XINTCR_BITS {
     Uint16   ENABLE:1;    // 0      enable/disable
     Uint16   rsvd1:1;     // 1      reserved
-    Uint16   POLARITY:2;  // 3:2    pos/neg, both triggered
+    Uint16   POLARITY:2;  // 3:2    触发边沿配置-- 01：上升沿；00、10：下降沿；11：上下沿都触发
     Uint16   rsvd2:12;    //15:4    reserved
-};
+}; // External Interrupt Control Bits(外部中断控制寄存器，可屏蔽中断)
 
 union XINTCR_REG {
     Uint16               all;
@@ -67,7 +67,7 @@ struct XNMICR_BITS {
     Uint16   SELECT:1;    // 1      Timer 1 or XNMI connected to int13
     Uint16   POLARITY:2;  // 3:2    pos/neg, or both triggered
     Uint16   rsvd2:12;    // 15:4   reserved
-};
+}; // External Non-Maskable Interrupt Control Register(不可屏蔽中断控制寄存器)
 
 union XNMICR_REG {
     Uint16               all;
@@ -86,10 +86,10 @@ struct XINTRUPT_REGS {
     union XINTCR_REG XINT6CR;
     union XINTCR_REG XINT7CR;
     union XNMICR_REG XNMICR;
-    Uint16           XINT1CTR;
-    Uint16           XINT2CTR;
+    Uint16           XINT1CTR;  // 外部中断1计数器
+    Uint16           XINT2CTR;  // 外部中断2计数器
     Uint16           rsvd[5];
-    Uint16           XNMICTR;
+    Uint16           XNMICTR;  // 不可屏蔽中断计数器
 };
 
 //

@@ -4,6 +4,9 @@
         "dsp2833x_device.h": "c",
         "dsp2833x_devemu.h": "c",
         "dsp2833x_cputimers.h": "c",
-        "dsp28x_project.h": "c"
+        "dsp28x_project.h": "c",
+        "epwm.h": "c",
+        "timer.h": "c",
+        "key.h": "c"
     }
 }
