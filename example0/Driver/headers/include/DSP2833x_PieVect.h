@@ -250,6 +250,8 @@ struct PIE_VECT_TABLE {
 
 //
 // PIE Interrupt Vector Table External References & Function Declarations
+// PIE 管理的中断向量表，需要在外部定义中断函数，将地址赋值给 PIE_VECT_TABLE 中的中断函数指针
+// 例如：PieVectTable.TINT0 = &timer0_isr;
 //
 extern volatile struct PIE_VECT_TABLE PieVectTable;
 

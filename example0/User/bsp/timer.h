@@ -9,11 +9,10 @@ void timer0_init(void);
 void timer0_start(void);
 void timer0_stop(void);
 void timer0_reload(void);
-void timer0_set_callback(timer_cb_t cb);
-void timer0_irq_enable(void);
-Uint32 timer0_read_counter(void);
-Uint32 timer0_read_period(void);
+Uint32 timer0_get_counter(void);
+Uint32 timer0_get_period(void);
 
-__interrupt void timer0_isr(void);
+void timer0_irq_enable(void);
+void timer0_register_isr_callback(timer_cb_t cb);
 
 #endif

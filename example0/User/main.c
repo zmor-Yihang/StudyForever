@@ -9,25 +9,29 @@
 static void on_timer_tick(void)
 {
     led_toggle(LED_D8);
+    //
+    // 应答中断的代码写在中断函数timer0_isr中
+    //
 }
 
 int main(void)
 {
     InitSysCtrl(); // 配置系统时钟150MHz，禁止看门狗
 
-    DINT;               // 禁止全局中断
     InitPieCtrl();      // 初始化中断控制器
     IER = 0x0000;       // 禁止所有中断
     IFR = 0x0000;       // 清除中断标志位
-    InitPieVectTable(); // 初始化中断向量表
-    EINT;               // 使能全局中断
-    ERTM;               // 使能实时中断
+    InitPieVectTable(); // 初始化中断向量表并使能了PIE中断
+    EnableInterrupts(); // 清除中断应答位并使能了CPU中断
+    ERTM;               // 使能CPU实时中断，调试时能进入中断函数
 
+    //
     // TI官方函数写在RAM中，所以需要将RAM中的代码复制到Flash中
     // 这样就可以在Flash中运行TI官方函数
+    // 
 #ifdef FLASH
     MemCopy(&RamfuncsLoadStart, &RamfuncsLoadEnd, &RamfuncsRunStart);
-    InitFlash(); // 初始化Flash
+    InitFlash();
 #endif
 
     // 初始化 LED
@@ -42,10 +46,9 @@ int main(void)
     // 初始化矩阵键盘
     key_init();
 
-    // 初始化定时器并接入中断：每秒翻转一次 LED_D8
     timer0_init();
-    timer0_set_callback(on_timer_tick);
-    timer0_irq_enable();
+    timer0_register_isr_callback(on_timer_tick); // 注册定时器中断回调函数
+    timer0_irq_enable();                         // 把中断函数地址赋值给 PIE 中断向量表，并使能PIE中断和CPU中断
     timer0_start();
 
     key_id_t key = KEY_NONE;
@@ -87,6 +90,6 @@ int main(void)
         }
         prev_key = key;
 
-        DELAY_MS(10); // 扫描间隔约 10ms
+        DELAY_MS(10);
     }
 }

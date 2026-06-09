@@ -57,8 +57,8 @@ extern "C" {
 // PIECTRL: Register bit definitions
 //
 struct PIECTRL_BITS {       // bits description
-    Uint16  ENPIE:1;        // 0    Enable PIE block
-    Uint16  PIEVECT:15;     // 15:1 Fetched vector address
+    Uint16  ENPIE:1;        // 0    Enable PIE block，使能PIE模块，使能之后 PIE 才能管理中断
+    Uint16  PIEVECT:15;     // 15:1 Fetched vector address，记录最近一次跳转的中断函数地址，没什么用
 };
 
 union PIECTRL_REG {
@@ -132,6 +132,9 @@ union PIEACK_REG {
 
 //
 // PIE Control Register File
+// PIEIEx：中断使能寄存器，x表示中断组号
+// PIEIFRx：中断标志寄存器
+// PIEACK：中断应答寄存器
 //
 struct PIE_CTRL_REGS {
     union PIECTRL_REG PIECTRL;       // PIE control register

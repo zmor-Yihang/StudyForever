@@ -66,8 +66,8 @@ extern "C" {
 //
 // Common CPU Definitions
 //
-extern cregister volatile unsigned int IFR;
-extern cregister volatile unsigned int IER;
+extern cregister volatile unsigned int IFR;  // CPU的中断标志寄存器
+extern cregister volatile unsigned int IER;  // CPU的中断使能寄存器
 
 #define  EINT   asm(" clrc INTM")
 #define  DINT   asm(" setc INTM")
@@ -77,6 +77,12 @@ extern cregister volatile unsigned int IER;
 #define  EDIS   asm(" EDIS")
 #define  ESTOP0 asm(" ESTOP0")
 
+
+//
+// 中断掩码，用于使能和屏蔽中断
+// 开 INT1   IER |= M_INT1;
+// 关 INT1   IER &= ~M_INT1;
+// 
 #define M_INT1  0x0001
 #define M_INT2  0x0002
 #define M_INT3  0x0004

@@ -49,8 +49,7 @@
 #include "DSP2833x_Examples.h" // DSP2833x Examples Include File
 
 //
-// InitPieCtrl - This function initializes the PIE control registers to a known
-// state.
+// InitPieCtrl - This function initializes the PIE control registers to a known state.
 //
 void InitPieCtrl(void)
 {

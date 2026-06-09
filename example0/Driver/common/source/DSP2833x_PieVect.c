@@ -235,6 +235,9 @@ const struct PIE_VECT_TABLE PieVectTableInit =
 //
 // InitPieVectTable - This function initializes the PIE vector table to a known
 // state. This function must be executed after boot time.
+// 初始化 PIE 中断向量表，将中断向量表初始化值赋值给 PIE 中断向量表，这个是防止用户不定义中断函数，导致中断无法正常工作
+// 如果用户不定义中断函数，则中断函数地址为上述这个表，函数里面执行死循环
+// 如果用户定义了中断函数，则中断函数地址会覆盖中断向量表初始化值
 //
 void InitPieVectTable(void)
 {
@@ -242,6 +245,10 @@ void InitPieVectTable(void)
     Uint32 *Source = (void *)&PieVectTableInit;
     volatile Uint32 *Dest = (void *)&PieVectTable;
 
+    //
+    // Enable the PIE Vector Table
+    // 把中断向量表初始化值赋值给 PIE 中断向量表
+    //
     EALLOW;
     for (i = 0; i < 128; i++)
     {
@@ -249,8 +256,8 @@ void InitPieVectTable(void)
     }
     EDIS;
 
-    //
-    // Enable the PIE Vector Table
+    // 
+    // Enable the PIE block
     //
     PieCtrlRegs.PIECTRL.bit.ENPIE = 1;
 }
