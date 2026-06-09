@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "CCS (IntelliSense)",
+            "includePath": [
+                "${workspaceFolder}/User",
+                "${workspaceFolder}/User/bsp",
+                "${workspaceFolder}/Driver/common/include",
+                "${workspaceFolder}/Driver/headers/include"
+            ],
+            "defines": [
+                "__interrupt=",
+                "interrupt=",
+                "cregister="
+            ],
+            "compilerPath": "",
+            "intelliSenseMode": "gcc-x86",
+            "cStandard": "c99"
+        }
+    ],
+    "version": 4
+}
