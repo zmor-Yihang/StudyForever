@@ -5,13 +5,16 @@
             "includePath": [
                 "${workspaceFolder}/User",
                 "${workspaceFolder}/User/bsp",
+                "${workspaceFolder}/User/tools",
                 "${workspaceFolder}/Driver/common/include",
-                "${workspaceFolder}/Driver/headers/include"
+                "${workspaceFolder}/Driver/headers/include",
+                "D:\\ProgramFiles\\CCS\\ccs\\tools\\compiler\\ti-cgt-c2000_22.6.1.LTS\\include"
             ],
             "defines": [
                 "__interrupt=",
                 "interrupt=",
-                "cregister="
+                "cregister=",
+                "__TMS320C2000__"
             ],
             "compilerPath": "",
             "intelliSenseMode": "gcc-x86",

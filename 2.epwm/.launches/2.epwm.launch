@@ -4,6 +4,7 @@
     <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROGRAM.TMS320F28335.ccxml.Texas Instruments XDS100v2 USB Debug Probe/C28xx" value="${build_artifact:2.epwm}"/>
     <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.TMS320F28335.ccxml.Texas Instruments XDS100v2 USB Debug Probe/C28xx" value="2.epwm"/>
     <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:2.epwm}"/>
+    <stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.TMS320F28335.ccxml.Texas Instruments XDS100v2 USB Debug Probe/C28xx" value="${build_artifact:2.epwm}"/>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
         <listEntry value="/2.epwm"/>
     </listAttribute>

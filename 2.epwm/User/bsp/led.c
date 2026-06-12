@@ -1,5 +1,4 @@
 #include "led.h"
-#include "DSP28x_Project.h"
 
 // 28335 GPIO 端口资源分布
 // GPIO 编号范围     分组/端口      寄存器前缀

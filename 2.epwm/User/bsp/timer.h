@@ -13,6 +13,6 @@ Uint32 timer0_get_counter(void);
 Uint32 timer0_get_period(void);
 
 void timer0_irq_enable(void);
-void timer0_register_isr_callback(timer_cb_t cb);
+void timer0_reg_isr_cb(timer_cb_t cb);
 
 #endif

@@ -7,6 +7,16 @@
         "dsp28x_project.h": "c",
         "epwm.h": "c",
         "timer.h": "c",
-        "key.h": "c"
+        "key.h": "c",
+        "test_timer.h": "c",
+        "led.h": "c",
+        "sci.h": "c",
+        "dsp2833x_globalprototypes.h": "c",
+        "dsp2833x_sci.h": "c",
+        "lwrb.h": "c",
+        "stddef.h": "c",
+        "stdint.h": "c",
+        "fifofast.h": "c",
+        "string.h": "c"
     }
 }

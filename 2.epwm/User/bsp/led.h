@@ -1,6 +1,8 @@
 #ifndef __LED_H__
 #define __LED_H__
 
+#include "DSP28x_Project.h"
+
 typedef enum {
     LED_D8 = 0,
     LED_D9,
