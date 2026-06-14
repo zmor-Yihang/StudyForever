@@ -17,6 +17,8 @@
         "stddef.h": "c",
         "stdint.h": "c",
         "fifofast.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "test_sci.h": "c",
+        "stdio.h": "c"
     }
 }

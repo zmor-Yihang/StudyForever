@@ -34,15 +34,12 @@
 void scia_init(void);
 
 // 入队待发，返回实际入队字节数（< len 表示发送缓冲已满）
-Uint16 scia_send(const Uint16 *data, Uint16 len);
+Uint16 scia_send(Uint16 *data, Uint16 len);
 
 // 发送以 '\0' 结尾的字符串，返回实际入队字节数
-Uint16 scia_send_str(const char *s);
+Uint16 scia_send_str(char *s);
 
 // 取出已收数据，返回实际取出字节数（< len 表示接收缓冲不够）
 Uint16 scia_recv(Uint16 *data, Uint16 len);
-
-// 接收缓冲区当前可读字节数
-Uint16 scia_rx_count(void);
 
 #endif

@@ -13,6 +13,7 @@ int main(void)
     ERTM;               // 使能CPU实时中断，调试时能进入中断函数
 
     test_sci_init();
+    DELAY_MS(1000);
 
     while (1)
     {

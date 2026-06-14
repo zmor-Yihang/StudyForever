@@ -353,7 +353,11 @@ void InitPeripheralClocks(void)
     // See the device data manual and/or the ADC Reference
     // Manual for more information.
     //
-    ADC_cal();
+    // 每颗 F28335 芯片的 ADC 都有微小的模拟偏差（参考电压偏移、零点偏移），
+    // 出厂时 TI 针对每颗芯片单独测量了校正值，固化在 OTP（一次性可编程）只读存储器里。
+    // ADC_cal() 函数会将这些校正值从 OTP 复制到 ADCREFSEL 和 ADCOFFTRIM 注册中。
+    //
+    ADC_cal(); 
 
     SysCtrlRegs.PCLKCR0.bit.I2CAENCLK = 1;   // I2C
     SysCtrlRegs.PCLKCR0.bit.SCIAENCLK = 1;   // SCI-A
@@ -397,6 +401,7 @@ void InitPeripheralClocks(void)
 //
 // CsmUnlock - This function unlocks the CSM. User must replace 0xFFFF's with
 // current password for the DSP. Returns 1 if unlock is successful.
+// 代码安全函数，用于解锁 CSM。用户必须用当前密码替换 0xFFFF。返回 1 表示解锁成功。
 //
 #define STATUS_FAIL 0
 #define STATUS_SUCCESS 1

@@ -165,11 +165,11 @@ union SCIPRI_REG {
 // SCI FIFO Transmit register bit definitions
 //                                                 
 struct  SCIFFTX_BITS {        // bit    description
-    Uint16 TXFFIL:5;          // 4:0    Interrupt level          FIFO发送中断阈值： 发送 FIFO 中的空位数量达到某个条件时触发中断
+    Uint16 TXFFIL:5;          // 4:0    Interrupt level          FIFO发送中断阈值：还剩几个空位时触发中断
     Uint16 TXFFIENA:1;        // 5      Interrupt enable         发送FIFO中断使能
     Uint16 TXFFINTCLR:1;      // 6      Clear INT flag           清除发送FIFO中断标志位，写1清除
     Uint16 TXFFINT:1;         // 7      INT flag                 发送FIFO中断标志位，置1表示有中断发生
-    Uint16 TXFFST:5;          // 12:8   FIFO status              发送FIFO状态位，表示发送FIFO还有几个空位
+    Uint16 TXFFST:5;          // 12:8   FIFO status              发送FIFO状态位，表示FIFO里面有几个数据
     Uint16 TXFIFOXRESET:1;    // 13     FIFO reset               发送 FIFO 复位，写1复位
     Uint16 SCIFFENA:1;        // 14     Enhancement enable       FIFO 模式使能，写1使能
     Uint16 SCIRST:1;          // 15     SCI reset rx/tx channels SCI复位接收/发送通道：初始化时先保持复位，再写 1 释放 SCI 收发模块。
@@ -184,7 +184,7 @@ union SCIFFTX_REG {
 // SCI FIFO recieve register bit definitions
 //                                                
 struct  SCIFFRX_BITS {        // bits   description
-    Uint16 RXFFIL:5;          // 4:0    Interrupt level          FIFO接收中断阈值： 接收 FIFO 中的数据数量达到某个条件时触发中断
+    Uint16 RXFFIL:5;          // 4:0    Interrupt level          FIFO接收中断阈值： 接收几个数据时触发中断
     Uint16 RXFFIENA:1;        // 5      Interrupt enable         FIFO接收中断使能
     Uint16 RXFFINTCLR:1;      // 6      Clear INT flag           清除接收FIFO中断标志位，写1清除
     Uint16 RXFFINT:1;         // 7      INT flag                 接收FIFO中断标志位，置1表示有中断发生
