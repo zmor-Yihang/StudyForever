@@ -1,5 +1,5 @@
 #include "DSP28x_Project.h"
-#include "test/test_sci.h"
+#include "test/test_adc.h"
 
 int main(void)
 {
@@ -12,11 +12,11 @@ int main(void)
     EnableInterrupts(); // 清除中断应答位并使能了CPU中断
     ERTM;               // 使能CPU实时中断，调试时能进入中断函数
 
-    test_sci_init();
+    test_adc_init();
     DELAY_MS(1000);
 
     while (1)
     {
-        test_sci_loop();
+        test_adc_loop();
     }
 }

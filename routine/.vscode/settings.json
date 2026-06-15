@@ -19,6 +19,7 @@
         "fifofast.h": "c",
         "string.h": "c",
         "test_sci.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "dsp2833x_adc.h": "c"
     }
 }
