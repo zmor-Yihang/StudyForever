@@ -57,7 +57,7 @@ struct ADCTRL1_BITS {     // bits  description
     Uint16  SEQ_CASC:1;   // 4     Cascaded sequencer mode 排序器连接模式控制，级联还是双排序器同时工作
     Uint16  SEQ_OVRD:1;   // 5     Sequencer override 排序器覆盖，连续运行下指针复位依据：0=转完MAX_CONVn个通道后复位 / 1=走到排序表最后再复位
     Uint16  CONT_RUN:1;   // 6     Continuous run 连续运行模式，写1时，adc会连续进行转换
-    Uint16  CPS:1;        // 7     ADC core clock pre-scalar 时钟分频控制位，对外设时钟总线再次分频
+    Uint16  CPS:1;        // 7     ADC core clock pre-scalar 时钟分频控制位，对外设时钟总线再次分频；和ADCTRL3.bit.ADCCLKPS共同决定ADC时钟
     Uint16  ACQ_PS:4;     // 11:8  Acquisition window size 采样时间控制，决定采样时间持续多久
     Uint16  SUSMOD:2;     // 13:12 Emulation suspend mode 仿真暂停控制位，cpu挂起时，adc是继续工作 / 完成当前转换后暂停 / 立即暂停工作
     Uint16  RESET:1;      // 14    ADC reset  adc复位，写1复位
@@ -170,8 +170,8 @@ union  ADCCHSELSEQ4_REG {
 struct ADCTRL3_BITS {         // bits   description
     Uint16   SMODE_SEL:1;     // 0      Sampling mode select  采样模式选择，0：顺序采样，1：同步采样
     Uint16   ADCCLKPS:4;      // 4:1    ADC core clock divider 外设时钟分频控制位，对外设时钟总线再次分频
-    Uint16   ADCPWDN:1;       // 5      ADC powerdown  休眠控制位，写1休眠adc（除去参考基准电压电路，参考基准电压电路的供电由下面单独控制）
-    Uint16   ADCBGRFDN:2;     // 7:6    ADC bandgap/ref power down 参考基准电压休眠控制位，写1休眠参考基准电压
+    Uint16   ADCPWDN:1;       // 5      ADC powerdown  休眠控制位（除去参考基准电压电路，参考基准电压电路的供电由下面单独控制）
+    Uint16   ADCBGRFDN:2;     // 7:6    ADC bandgap/ref power down 参考基准电压休眠控制位
     Uint16   rsvd1:8;         // 15:8   reserved
 }; 
 
@@ -219,7 +219,7 @@ union ADCOFFTRIM_REG{
 struct ADC_REGS {
     union ADCTRL1_REG      ADCTRL1;       //ADC Control 1 
     union ADCTRL2_REG      ADCTRL2;       //ADC Control 2
-    union ADCMAXCONV_REG   ADCMAXCONV;    //Max conversions 最大转换次数
+    union ADCMAXCONV_REG   ADCMAXCONV;    //Max conversions 每次触发转换的通道数
 
     // 通道选择排列表：4个寄存器各含4个4位字段，共16步，每步填0~15指定采哪个通道（0~7=ADCINA0~7, 8~15=ADCINB0~7）
     union ADCCHSELSEQ1_REG ADCCHSELSEQ1;  //Channel select sequencing control 1 通道0~3的采样优先级设置
