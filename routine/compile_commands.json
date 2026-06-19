@@ -1,0 +1,177 @@
+[
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_Adc.c",
+        "command":  "clang Driver/common/source/DSP2833x_Adc.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_CpuTimers.c",
+        "command":  "clang Driver/common/source/DSP2833x_CpuTimers.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_DefaultIsr.c",
+        "command":  "clang Driver/common/source/DSP2833x_DefaultIsr.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_DMA.c",
+        "command":  "clang Driver/common/source/DSP2833x_DMA.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_ECan.c",
+        "command":  "clang Driver/common/source/DSP2833x_ECan.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_ECap.c",
+        "command":  "clang Driver/common/source/DSP2833x_ECap.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_EPwm.c",
+        "command":  "clang Driver/common/source/DSP2833x_EPwm.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_EQep.c",
+        "command":  "clang Driver/common/source/DSP2833x_EQep.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_Gpio.c",
+        "command":  "clang Driver/common/source/DSP2833x_Gpio.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_I2C.c",
+        "command":  "clang Driver/common/source/DSP2833x_I2C.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_Mcbsp.c",
+        "command":  "clang Driver/common/source/DSP2833x_Mcbsp.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_MemCopy.c",
+        "command":  "clang Driver/common/source/DSP2833x_MemCopy.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_PieCtrl.c",
+        "command":  "clang Driver/common/source/DSP2833x_PieCtrl.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_PieVect.c",
+        "command":  "clang Driver/common/source/DSP2833x_PieVect.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_Sci.c",
+        "command":  "clang Driver/common/source/DSP2833x_Sci.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_Spi.c",
+        "command":  "clang Driver/common/source/DSP2833x_Spi.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_SysCtrl.c",
+        "command":  "clang Driver/common/source/DSP2833x_SysCtrl.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/common/source/DSP2833x_Xintf.c",
+        "command":  "clang Driver/common/source/DSP2833x_Xintf.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "Driver/headers/source/DSP2833x_GlobalVariableDefs.c",
+        "command":  "clang Driver/headers/source/DSP2833x_GlobalVariableDefs.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/bsp/adc.c",
+        "command":  "clang User/bsp/adc.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/bsp/ecap.c",
+        "command":  "clang User/bsp/ecap.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/bsp/epwm.c",
+        "command":  "clang User/bsp/epwm.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/bsp/exit.c",
+        "command":  "clang User/bsp/exit.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/bsp/key.c",
+        "command":  "clang User/bsp/key.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/bsp/led.c",
+        "command":  "clang User/bsp/led.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/bsp/sci.c",
+        "command":  "clang User/bsp/sci.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/bsp/timer.c",
+        "command":  "clang User/bsp/timer.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/main.c",
+        "command":  "clang User/main.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/test/test_adc.c",
+        "command":  "clang User/test/test_adc.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/test/test_ecap.c",
+        "command":  "clang User/test/test_ecap.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/test/test_epwm.c",
+        "command":  "clang User/test/test_epwm.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/test/test_epwm2.c",
+        "command":  "clang User/test/test_epwm2.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/test/test_sci.c",
+        "command":  "clang User/test/test_sci.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/test/test_timer.c",
+        "command":  "clang User/test/test_timer.c"
+    },
+    {
+        "directory":  "C:/Users/30495/Desktop/CCSPro/routine",
+        "file":  "User/tools/lwrb.c",
+        "command":  "clang User/tools/lwrb.c"
+    }
+]

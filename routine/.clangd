@@ -1,0 +1,22 @@
+CompileFlags:
+  Add:
+    - -xc
+    - -std=c99
+    - -D__interrupt=
+    - -Dinterrupt=
+    - -Dcregister=
+    - -D__TMS320C2000__
+    - -Dasm(x)=
+    - -D__PTRDIFF_T_TYPE__=__PTRDIFF_TYPE__
+    - -include
+    - DSP2833x_Device.h
+    - -Ic:/Users/30495/Desktop/CCSPro/routine/User
+    - -Ic:/Users/30495/Desktop/CCSPro/routine/User/bsp
+    - -Ic:/Users/30495/Desktop/CCSPro/routine/User/tools
+    - -Ic:/Users/30495/Desktop/CCSPro/routine/Driver/common/include
+    - -Ic:/Users/30495/Desktop/CCSPro/routine/Driver/headers/include
+    - -ID:/ProgramFiles/CCS/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include
+
+Diagnostics:
+  UnusedIncludes: None
+  MissingIncludes: None
