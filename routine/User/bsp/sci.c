@@ -1,6 +1,7 @@
 #include "sci.h"
+
 #include "../tools/lwrb.h"
- 
+
 //
 // 双层缓冲结构
 // 硬件 FIFO(16级) 之上再叠一层软件 FIFO(lwrb)，应用只碰软件 FIFO，不直接读写 FIFO 寄存器。
@@ -27,12 +28,10 @@ static volatile Uint16 s_rx_overflow = 0; // RX 软件 FIFO 满丢弃计数，�
 // 接收 FIFO 攒够 SCIA_RX_FIFO_LVL 个字节 → 进中断，全部搬进 RX 软件 FIFO
 // 必须把 FIFO 读空，否则残留字节维持中断条件造成反复触发。
 //
-static interrupt void sciaRxIsr(void)
-{
+static interrupt void sciaRxIsr(void) {
     Uint16 n = SciaRegs.SCIFFRX.bit.RXFFST; // FIFO 内现有字节数
 
-    while (n--)
-    {
+    while (n--) {
         // FIFO 模式下 SCIRXBUF 高位含每字节错误标志,屏蔽后取数据字节
         lwrb_data_t b = (lwrb_data_t)(SciaRegs.SCIRXBUF.all & 0x00FF);
 
@@ -52,25 +51,20 @@ static interrupt void sciaRxIsr(void)
 // 发送 FIFO 剩余 <= SCIA_TX_FIFO_LVL 个 → 进中断 → 从 TX 软件 FIFO 补数据进 FIFO。
 // TX 软件 FIFO 搬空后必须关掉 TXFFIENA，否则 FIFO 长期空会持续触发中断。
 //
-static interrupt void sciaTxIsr(void)
-{
+static interrupt void sciaTxIsr(void) {
     lwrb_data_t b;
     Uint16 tx_pending;
 
     // 尽量填满硬件 FIFO；停下来的原因只可能是硬件 FIFO 满，或软件 FIFO 空。
-    while (SciaRegs.SCIFFTX.bit.TXFFST < 16 && lwrb_read(&s_tx_rb, &b, 1U) == 1U)
-    {
+    while (SciaRegs.SCIFFTX.bit.TXFFST < 16 && lwrb_read(&s_tx_rb, &b, 1U) == 1U) {
         SciaRegs.SCITXBUF = (Uint16)b;
     }
 
     tx_pending = (Uint16)lwrb_get_full(&s_tx_rb);
-    if (tx_pending == 0U)
-    {
+    if (tx_pending == 0U) {
         // 软件 FIFO 已空，关闭发送中断；硬件 FIFO 中已写入的数据仍会继续发完。
         SciaRegs.SCIFFTX.bit.TXFFIENA = 0;
-    }
-    else
-    {
+    } else {
         // 软件 FIFO 仍有数据，说明硬件 FIFO 已满；保持中断开启，等硬件 FIFO 降到阈值后继续补数据。
         SciaRegs.SCIFFTX.bit.TXFFIENA = 1;
     }
@@ -82,8 +76,7 @@ static interrupt void sciaTxIsr(void)
 //
 // ── 初始化:8-N-1 / 9600 / 收发中断 + FIFO ──
 //
-void scia_init(void)
-{
+void scia_init(void) {
     //
     // 先复位软件 FIFO,务必在使能中断之前:否则 SWRESET 后 RX 中断可能先到,
     // 操作未准备好的软件缓冲。
@@ -91,7 +84,7 @@ void scia_init(void)
     lwrb_init(&s_rx_rb, s_rx_rb_data, SCIA_RX_BUF_SIZE + 1);
     lwrb_init(&s_tx_rb, s_tx_rb_data, SCIA_TX_BUF_SIZE + 1);
 
-    InitSciaGpio(); // GPIO28=SCIRXDA, GPIO29=SCITXDA
+    InitSciaGpio(); // GPIO36=SCIRXDA, GPIO35=SCITXDA
 
     SciaRegs.SCICTL1.bit.SWRESET = 0; // 配置前复位 SCI，配置完成后再置位
 
@@ -173,8 +166,7 @@ void scia_init(void)
 // 入队待发:把数据塞进 TX 软件 FIFO,然后开发送中断让 ISR 去搬。返回实际入队字节数
 // data:待发送数据缓冲区，len:待发送数据长度
 //
-Uint16 scia_send(Uint16 *data, Uint16 len)
-{
+Uint16 scia_send(Uint16 *data, Uint16 len) {
     Uint16 i;
     Uint16 sent = 0;
     Uint16 tx_int_enabled = SciaRegs.SCIFFTX.bit.TXFFIENA; // 读取中断使能状态
@@ -184,8 +176,7 @@ Uint16 scia_send(Uint16 *data, Uint16 len)
     //
     // scia_send 接口按 Uint16/格 传入(每格低 8 位有效),软件 FIFO 按字节保存。
     //
-    for (i = 0; i < len; i++)
-    {
+    for (i = 0; i < len; i++) {
         lwrb_data_t b = (data[i] & 0x00FF);     // 取出data[i]的低8位
         if (lwrb_write(&s_tx_rb, &b, 1U) == 0U) // 写入软件FIFO，返回值为0表示满则写不进去
         {
@@ -205,26 +196,22 @@ Uint16 scia_send(Uint16 *data, Uint16 len)
 //
 // 发送字符串(到 '\0' 为止)
 //
-Uint16 scia_send_str(char *s)
-{
+Uint16 scia_send_str(char *s) {
     Uint16 sent = 0;
     Uint16 tx_int_enabled = SciaRegs.SCIFFTX.bit.TXFFIENA;
 
     SciaRegs.SCIFFTX.bit.TXFFIENA = 0;
 
-    while (s[0] != '\0')
-    {
+    while (s[0] != '\0') {
         lwrb_data_t b = ((Uint16)s[0] & 0x00FF);
-        if (lwrb_write(&s_tx_rb, &b, 1U) == 0U)
-        {
+        if (lwrb_write(&s_tx_rb, &b, 1U) == 0U) {
             break;
         }
         sent++;
         s++;
     }
 
-    if (sent > 0 || tx_int_enabled != 0)
-    {
+    if (sent > 0 || tx_int_enabled != 0) {
         SciaRegs.SCIFFTX.bit.TXFFIENA = 1;
     }
 
@@ -234,15 +221,13 @@ Uint16 scia_send_str(char *s)
 //
 // 取出已收数据:从 RX 软件 FIFO 搬到用户缓冲。返回实际取出字节数
 //
-Uint16 scia_recv(Uint16 *data, Uint16 len)
-{
+Uint16 scia_recv(Uint16 *data, Uint16 len) {
     Uint16 i;
     Uint16 rx_int_enabled = SciaRegs.SCIFFRX.bit.RXFFIENA;
 
     SciaRegs.SCIFFRX.bit.RXFFIENA = 0;
 
-    for (i = 0; i < len; i++)
-    {
+    for (i = 0; i < len; i++) {
         lwrb_data_t b;
         if (lwrb_read(&s_rx_rb, &b, 1U) != 1U) // 软件 FIFO 空,没数据了
         {
