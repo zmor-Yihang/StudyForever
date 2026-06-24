@@ -19,11 +19,7 @@ CompileFlags:
 
 Diagnostics:
   UnusedIncludes: None
-<<<<<<< HEAD
   MissingIncludes: None
   Suppress:
     - unused-includes
     - missing-includes
-=======
-  MissingIncludes: None
->>>>>>> 9059677e9f1ac91af3a539b8fbd5216ca5e6ddf1
